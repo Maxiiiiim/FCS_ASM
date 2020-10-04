@@ -53,7 +53,7 @@ section '.code' code readable executable
                 add esp,  4
 
                 mov [i], 0
-                call ChangeNegativeElements
+                call ChangeNull
 
 
                 push [min]
@@ -152,7 +152,7 @@ section '.code' code readable executable
                         mov esp, [tmpStack]
                         ret
 
-        ChangeNegativeElements:
+        ChangeNull:
                 xor ecx, ecx
                 mov edx, arr
                 mov ebx, arrB
