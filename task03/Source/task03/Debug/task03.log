@@ -1,0 +1,3 @@
+﻿  task03.cpp
+C:\Users\minet\source\repos\task03\task03\task03.cpp(89,20): warning C4018: <: несоответствие типов со знаком и без знака
+  task03.vcxproj -> C:\Users\minet\source\repos\task03\Debug\task03.exe
